@@ -8,5 +8,5 @@ $('#calculate').on('click', function () {
     (e) => myWeight = parseInt(e.target.value, 10);
     (e) => myHeight = parseInt(e.target.value, 10);
     let myBmi = (parseInt((myWeight / ((myHeight * myHeight) / 10000)), 10))
-    $('#bmi').html(`Your BMI is` + ' ' + ' ' + myBmi)
+    $('#bmi').html(myBmi)
 })

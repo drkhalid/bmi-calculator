@@ -5,14 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <title>BMI calculator</title>
 </head>
 
 <body>
-    <input type="number" id="weight" placeholder="Wight in KG">
-    <input type="number" id="height" placeholder="Height in CM">
-    <button id="calculate">calculate</button>
-    <p id="bmi">Your BMI is</p>
+    <div class="flex">
+        <input type="number" id="weight" placeholder="Wight in KG">
+        <input type="number" id="height" placeholder="Height in CM">
+        <button id="calculate">calculate</button>
+    </div>
+    <span>Your BMI is</span>
+    <span id="bmi"></span>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
         crossorigin="anonymous"></script>
